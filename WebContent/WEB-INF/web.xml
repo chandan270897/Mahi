@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" version="3.0">
+  <display-name>Spark_Foundation</display-name>
+  <welcome-file-list>
+    <welcome-file>Homepage.html</welcome-file>   
+  </welcome-file-list>
+  
+    <servlet>
+  <servlet-name>PQR</servlet-name>
+  <servlet-class>com.mahi.HomeServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PQR</servlet-name>
+  <url-pattern>/Home</url-pattern>
+  </servlet-mapping>
+  
+     <servlet>
+  <servlet-name>PQS</servlet-name>
+  <servlet-class>com.mahi.ViewServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+  <servlet-name>PQS</servlet-name>
+  <url-pattern>/View</url-pattern>
+  </servlet-mapping>
+  
+</web-app>
